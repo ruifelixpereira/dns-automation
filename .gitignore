@@ -1,1 +1,12 @@
 example.csv
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+.demo/
+crash.log
+endpoints.json

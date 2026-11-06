@@ -1,0 +1,8 @@
+endpoints = {
+  blob-spoke1  = { service = "blob", network = "spoke1" }
+  vault-spoke2 = { service = "vault", network = "spoke2" }
+
+  # These create distinct resources for hub and concurrency tests.
+  # blob-hub    = { service = "blob", network = "hub" }
+  # blob-spoke2 = { service = "blob", network = "spoke2" }
+}

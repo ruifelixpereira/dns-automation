@@ -1,0 +1,9 @@
+subscription_id       = "00000000-0000-0000-0000-000000000000"
+location              = "westeurope"
+name_prefix           = "dnsdemo"
+base_cidr             = "10.40.0.0/14"
+enforce_zone_location = false
+
+tags = {
+  project = "dns-automation"
+}
