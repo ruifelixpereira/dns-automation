@@ -28,7 +28,7 @@ az login
 az account list --query '[].{Name:name,Id:id,State:state}' --output table
 
 SUBSCRIPTION_ID="REPLACE-WITH-YOUR-SUBSCRIPTION-UUID"
-bash infra/scripts/demo.sh configure "$SUBSCRIPTION_ID" dnsdemo westeurope
+bash infra/scripts/demo.sh configure "$SUBSCRIPTION_ID" dnsdemo swedencentral
 ```
 
 This writes ignored local files:
